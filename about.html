@@ -1,11 +1,12 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>About — MyBootstrap Project</title>
   <!-- Bootstrap 5 CDN -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
   <link href="assets/css/style.css" rel="stylesheet">
 </head>
 <body>
@@ -28,16 +29,16 @@
   </nav>
 
   <!-- About Section -->
-  <main class="container py-5">
+  <section class="container py-5">
     <div class="row align-items-center">
       <div class="col-lg-7 mb-4 mb-lg-0">
         <h2 class="fw-bold mb-3">About This Project</h2>
-        <p class="lead">This project is a simple Bootstrap 5 web page template designed to showcase clean, responsive layouts using components like navbars, cards, and hero sections.</p>
-        <p>It demonstrates how to remix official Bootstrap components to create original pages. You can use this as a starting point for your own portfolio, product pages, or small projects.</p>
+        <p class="lead">This project is a modern Bootstrap 5 template designed to showcase responsive layouts with beautiful, interactive components like hero sections, cards, and forms.</p>
+        <p>It demonstrates how to remix official Bootstrap components to create original pages with consistent styling and polished visuals.</p>
         <a href="contact.html" class="btn btn-primary mt-3">Get in Touch</a>
       </div>
       <div class="col-lg-5">
-        <div class="card shadow-sm">
+        <div class="card shadow-sm border-top border-4 border-primary mb-3">
           <div class="card-body">
             <h5 class="card-title">Our Services</h5>
             <ul class="list-unstyled mb-3">
@@ -49,14 +50,20 @@
             <a href="contact.html" class="btn btn-outline-primary btn-sm">Contact Us</a>
           </div>
         </div>
+        <div class="card shadow-sm border-top border-4 border-primary">
+          <div class="card-body">
+            <h5 class="card-title">Why Choose Us?</h5>
+            <p>We focus on clarity, polish, and modern design using only Bootstrap 5 components, ensuring a seamless user experience across all devices.</p>
+          </div>
+        </div>
       </div>
     </div>
-  </main>
+  </section>
 
   <!-- Footer -->
-  <footer class="bg-light text-center py-4">
-    <div class="container">
-      <small class="text-muted">© <span id="year"></span> MyBootstrap — Built with Bootstrap 5</small>
+  <footer>
+    <div class="container text-center">
+      <small>© <span id="year"></span> MyBootstrap — Built with Bootstrap 5</small>
     </div>
   </footer>
 
